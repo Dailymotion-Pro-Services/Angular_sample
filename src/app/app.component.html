@@ -1,0 +1,50 @@
+<base href="/">
+
+<h1>Dailymotion Angular Test Pages</h1>
+
+<main>
+  <nav>
+    <ul>
+      <li>Embed with Iframe
+        <ul>
+
+          <li><a routerLink="/iframe-dailymotion-video" routerLinkActive="active" ariaCurrentWhenActive="page">with Video ID</a></li>
+      
+          <li><a routerLink="/iframe-dailymotion-playlist" routerLinkActive="active" ariaCurrentWhenActive="page">with Playlist ID</a></li>
+    
+          <li><a routerLink="/iframe-dailymotion-playlist-video" routerLinkActive="active" ariaCurrentWhenActive="page">with Playlist ID + Video ID</a></li>
+
+          <li><a routerLink="/iframe-dailymotion-multiple" routerLinkActive="active" ariaCurrentWhenActive="page">with multiple player</a></li>
+
+        </ul>
+      </li>
+      <li>
+        Embed with PES
+        <ul>
+          <li><a routerLink="/pes-dailymotion-video" routerLinkActive="active" ariaCurrentWhenActive="page">with Video ID</a></li>
+      
+          <li><a routerLink="/pes-dailymotion-playlist" routerLinkActive="active" ariaCurrentWhenActive="page">with Playlist ID</a></li>
+    
+          <li><a routerLink="/pes-dailymotion-playlist-video" routerLinkActive="active" ariaCurrentWhenActive="page">with Playlist ID + Video ID</a></li>
+
+          <li><a routerLink="/pes-dailymotion-multiple" routerLinkActive="active" ariaCurrentWhenActive="page">with multiple player</a></li>
+        </ul>
+      </li>
+      <li>
+        Embed with PLS
+        <ul>
+          <li><a routerLink="/pls-dailymotion-video" routerLinkActive="active" ariaCurrentWhenActive="page">with Video ID</a></li>
+      
+          <li><a routerLink="/pls-dailymotion-playlist" routerLinkActive="active" ariaCurrentWhenActive="page">with Playlist ID</a></li>
+    
+          <li><a routerLink="/pls-dailymotion-playlist-video" routerLinkActive="active" ariaCurrentWhenActive="page">with Playlist ID + Video ID</a></li>
+
+          <li><a routerLink="/pls-dailymotion-multiple" routerLinkActive="active" ariaCurrentWhenActive="page">with multiple player</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <div class="router-wrapper">
+    <router-outlet></router-outlet>
+  </div>
+</main>
