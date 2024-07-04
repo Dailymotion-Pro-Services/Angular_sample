@@ -1,0 +1,14 @@
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+.router-wrapper{
+    max-width: 600px;
+    flex: 1;
+}
+@media only screen and (max-width: 900px) {
+    main {
+      flex-direction: column;
+    }
+}
