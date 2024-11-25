@@ -1,6 +1,6 @@
 
 # Implement Dailymotion player with [Angular](https://angular.dev/)
-- Test Page : https://dmvs-apac.github.io/Angular_sample/
+- Test Page : https://dailymotion-pro-services.github.io/Angular_sample/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.6.
 
